@@ -38,19 +38,6 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Create configuration file:
-```bash
-cp config.example.py config.py
-```
-
-5. Edit `config.py` with your IRC server details:
-```python
-SERVER = "irc.example.com"
-PORT = 6697  # SSL port
-NICKNAME = "WeatherBot"
-CHANNELS = ["#channel1", "#channel2"]
-```
-
 ## Usage
 
 Start the bot:
@@ -67,17 +54,6 @@ In any channel where the bot is present:
   - Example: `!weather "New York"`
 - `!help` - Display available commands
 
-## Configuration Options
-
-In `config.py`, you can customize:
-
-- `SERVER`: IRC server address
-- `PORT`: IRC server port (default: 6697 for SSL)
-- `NICKNAME`: Bot's nickname
-- `CHANNELS`: List of channels to join
-- `RECONNECT_DELAY`: Seconds to wait before reconnecting (default: 30)
-- `SSL_ENABLED`: Whether to use SSL/TLS (default: True)
-- `DEBUG`: Enable debug logging (default: False)
 
 ## API Information
 
