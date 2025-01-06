@@ -4,6 +4,14 @@ A lightweight IRC bot that provides real-time weather information using the Open
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 
+## IRC Server Details
+
+Join us on MansionNET IRC to chat with us, test the bot, and play some trivia! 
+
+🌐 **Server:** irc.inthemansion.com  
+🔒 **Port:** 6697 (SSL)  
+📝 **Channel:** #opers, #general, #welcome, #devs (and many others)
+
 ## Features
 
 - Real-time weather information for any city worldwide
